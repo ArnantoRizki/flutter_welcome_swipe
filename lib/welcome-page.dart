@@ -13,9 +13,9 @@ class WelcomePage extends StatefulWidget {
 class _WelcomePageState extends State<WelcomePage> {
   static WelcomeModelListHandler welcomeHandler = new WelcomeModelListHandler(
     container: [
-      WelcomeModel(title: "Finds cat friend?", gambar: 'assets/images/cat-cover1.jpg', konten: "Connecting a large number of OT machines with IT systems gives you real-time visibility of what is happening in your application.", backcolor: Colors.white),
-      WelcomeModel(title: "Support Industry Automation", gambar: 'assets/images/cat-cover2.jpg', konten: "Unite people and systems on the plant floor with those at the enterprise level, enabling users to get the most value from their automated systems.", backcolor: Colors.white),
-      WelcomeModel(title: "Connect to Visualize", gambar: 'assets/images/cat-cover3.jpeg', konten: "Gives you real-time visibility of what is happening in your application, offering you insights in real time of why it’s happening.", backcolor: Colors.white),
+      WelcomeModel(title: "Cat 1", gambar: 'assets/images/cat-cover1.jpg', konten: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", backcolor: Colors.white),
+      WelcomeModel(title: "Cat 2", gambar: 'assets/images/cat-cover2.jpg', konten: "Nunc id pulvinar turpis, sed sollicitudin diam. Mauris et elit sit amet sem condimentum egestas.", backcolor: Colors.white),
+      WelcomeModel(title: "Cat 3", gambar: 'assets/images/cat-cover3.jpeg', konten: "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean vitae semper metus.", backcolor: Colors.white),
     ]
   );
 
